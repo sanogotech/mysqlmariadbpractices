@@ -23,11 +23,14 @@ password =
 ```
 ![Login PhpMyadmin ](https://github.com/sanogotech/mysqlmariadbpractices/blob/master/docs/images/phpmyadminlogin.png)
 
-## Add myql  to  PATH
+
+## BASICS : Command Line
+
+###  Add  MYSQL/MARIA DB to  PATH
 ```
 Ex :  C:\xampp\mysql\bin  to PATH  Windows
+
 ```
-## BASICS : Command Line
 * Connect
 ```
 mysql  -u  root  -p
