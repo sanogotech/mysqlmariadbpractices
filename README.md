@@ -14,6 +14,8 @@ https://www.apachefriends.org/fr/download.html
 ## PhpMyAdmin
 - In Windows Start: XAMPP
 
+![XAMPP Control Panel](https://github.com/sanogotech/mysqlmariadbpractices/blob/master/docs/images/xampcontrolpanel.jpg)
+
 ```
 https://localhost:80
 user = root
