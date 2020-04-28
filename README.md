@@ -7,10 +7,10 @@
 
 ## Install  XAMPP
 Download
-```
-https://www.apachefriends.org/fr/download.html
 
-```
+[Link to Download XAMPP ](https://www.apachefriends.org/fr/download.html
+)
+
 ## PhpMyAdmin
 - In Windows Start: XAMPP
 
@@ -21,6 +21,7 @@ https://localhost:80
 user = root
 password =
 ```
+![Login PhpMyadmin ](https://github.com/sanogotech/mysqlmariadbpractices/blob/master/docs/images/phpmyadminlogin.png)
 
 ## Add myql  to  PATH
 ```
