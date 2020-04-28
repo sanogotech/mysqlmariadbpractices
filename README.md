@@ -4,6 +4,9 @@
 
 ## Docs Urls
 - https://www.hostinger.fr/tutoriels/creer-un-utilisateur-mysql/
+- https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
+- https://www.w3schools.com/python/python_mysql_getstarted.asp
+- https://github.com/datacharmer/test_db
 
 ## Install  XAMPP
 Download
@@ -80,4 +83,25 @@ REVOKE [permission type] ON [database name].[table name] FROM ‘non-root’@‘localh
 REVOKE ALL PRIVILEGES ON *.* FROM 'non-root'@'localhost';
 DROP USER ‘non-root’@‘localhost’;
 FLUSH PRIVILEGES;
+```
+
+* Create Table
+```
+mysql> create database javatest;
+mysql> use javatest;
+mysql> create table testdata (id int not null auto_increment primary key,foo varchar(25),bar int);
+```
+
+* Insert Data
+```
+mysql> insert into testdata values(null, 'hello', 12345);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from testdata;
++----+-------+-------+
+| ID | FOO   | BAR   |
++----+-------+-------+
+|  1 | hello | 12345 |
++----+-------+-------+
+1 row in set (0.00 sec)
 ```
