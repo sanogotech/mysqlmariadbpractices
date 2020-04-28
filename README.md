@@ -6,10 +6,25 @@
 - https://www.hostinger.fr/tutoriels/creer-un-utilisateur-mysql/
 
 ## Install  XAMPP
+Download
+```
+https://www.apachefriends.org/fr/download.html
+
+```
+## PhpMyAdmin
+- In Windows Start: XAMPP
+
+```
+https://localhost:80
+user = root
+password =
+```
 
 ## Add myql  to  PATH
-
-## BASICS
+```
+Ex :  C:\xampp\mysql\bin  to PATH  Windows
+```
+## BASICS : Command Line
 * Connect
 ```
 mysql  -u  root  -p
